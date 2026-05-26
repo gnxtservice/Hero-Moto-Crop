@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Lahoria Traders</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f5f5f5;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+width:95%;
+max-width:420px;
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.top{
+background:linear-gradient(135deg,#ff0000,#111);
+padding:35px 20px;
+text-align:center;
+color:white;
+}
+
+.top h1{
+font-size:34px;
+margin-top:10px;
+}
+
+.top p{
+margin-top:8px;
+font-size:15px;
+opacity:0.9;
+}
+
+.logo{
+font-size:55px;
+font-weight:bold;
+}
+
+.buttons{
+padding:25px;
+display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+.btn{
+text-decoration:none;
+padding:18px;
+border-radius:14px;
+color:white;
+font-size:18px;
+font-weight:bold;
+display:flex;
+justify-content:center;
+align-items:center;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.03);
+}
+
+.call{
+background:#ff0000;
+}
+
+.whatsapp{
+background:#25D366;
+}
+
+.service{
+background:#111;
+}
+
+.footer{
+text-align:center;
+padding:18px;
+font-size:14px;
+color:#555;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="top">
+<div class="logo">Hero</div>
+<h1>LAHORIA TRADERS</h1>
+<p>Auth. Dealer Hero Moto Corp Ltd.</p>
+<p>Ride with Trust. Ride with Hero.</p>
+</div>
+
+<div class="buttons">
+
+<a class="btn call" href="tel:9453997480">
+📞 CALL SALES — SONU BAJWA
+</a>
+
+<a class="btn whatsapp" href="https://wa.me/917456087190">
+💬 WHATSAPP TO CHAT
+</a>
+
+<a class="btn service" href="tel:9917200546">
+🔧 V.K. JOSHI SERVICE TEAM
+</a>
+
+</div>
+
+<div class="footer">
+Gangapur Road, Fulaungi, Rudrapur,<br>
+Udham Singh Nagar, Uttarakhand - 263153
+</div>
+
+</div>
+
+</body>
+</html>
